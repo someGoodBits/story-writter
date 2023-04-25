@@ -1,38 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Story Writter</title>
-  </head>
-  <body>
-    <div class="wrapper">
-
-
-    <textarea placeholder="Write your story here"></textarea>
-
-    <button onclick="gen()">✨</button>
-
-</div>
-
-<!-- SHORTHANDS -->
-
-<script>
-
-const doc = document ;
-
-const qs  = q => doc.querySelector(q);
-
-const qsa = q => doc.querySelectorAll(q);
-
-const ce  = q => doc.createElement(q);
-
-function addEventHooks(o){
-
-  o.on = (...p) => o.addEventListener(...p);
-
-  o.off = (...p) => o.removeEventListener(...p);
-
-}
-
-</script>
-  </body>
+    <head>
+        <title>Story Writter</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <textarea placeholder="Write your story here"></textarea>
+            <button onclick="gen()">✨</button>
+        </div>
+        <!-- SHORTHANDS -->
+        <script>
+            const doc = document;
+            const qs = (q) => doc.querySelector(q);
+            const qsa = (q) => doc.querySelectorAll(q);
+            const ce = (q) => doc.createElement(q);
+            function addEventHooks(o) {
+                o.on = (...p) => o.addEventListener(...p);
+                o.off = (...p) => o.removeEventListener(...p);
+            }
+        </script>
+    </body>
 </html>
