@@ -30,6 +30,7 @@ textarea {
     color:white;
     resize:none;
     font-size:1.2rem;
+    padding-bottom: 5rems;
 }
 
 button {

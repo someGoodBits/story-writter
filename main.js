@@ -1,4 +1,4 @@
-const bloomUrl = "https://api-inference.huggingface.co/models/bigscience/bloom";
+const bloomUrl = "https://api-inference.huggingface.co/models/bigscience/bloomz";
 const apiKey = "Bearer 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";
 let story ;
 window.onload = () => {
